@@ -86,7 +86,7 @@
     "eject": "react-scripts eject",
     "dev:graphql-codegen": "graphql-codegen -c codegen.dev.yml",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
+    "deploy-gh-pages": "node before-gh-pages-deploy.js && GH_PAGES_BASE='/crossnote-legacy' npm run build && node after-gh-pages-deploy.js && gh-pages-clean && node gh-pages-deploy.js",
     "fix:prettier": "prettier --write \"**/*.*\"",
     "postinstall": "patch-package"
   },
