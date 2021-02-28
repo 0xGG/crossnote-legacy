@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/crossnote-legacy/static/css/main.5b9df75b.chunk.css",
+    "main.js": "/crossnote-legacy/static/js/main.3cb33466.chunk.js",
+    "main.js.map": "/crossnote-legacy/static/js/main.3cb33466.chunk.js.map",
+    "runtime-main.js": "/crossnote-legacy/static/js/runtime-main.8ed0af07.js",
+    "runtime-main.js.map": "/crossnote-legacy/static/js/runtime-main.8ed0af07.js.map",
+    "static/css/2.d634ffc6.chunk.css": "/crossnote-legacy/static/css/2.d634ffc6.chunk.css",
+    "static/js/2.96389559.chunk.js": "/crossnote-legacy/static/js/2.96389559.chunk.js",
+    "static/js/2.96389559.chunk.js.map": "/crossnote-legacy/static/js/2.96389559.chunk.js.map",
+    "index.html": "/crossnote-legacy/index.html",
+    "static/css/2.d634ffc6.chunk.css.map": "/crossnote-legacy/static/css/2.d634ffc6.chunk.css.map",
+    "static/css/main.5b9df75b.chunk.css.map": "/crossnote-legacy/static/css/main.5b9df75b.chunk.css.map",
+    "static/js/2.96389559.chunk.js.LICENSE.txt": "/crossnote-legacy/static/js/2.96389559.chunk.js.LICENSE.txt",
+    "static/media/katex.min.css": "/crossnote-legacy/static/media/KaTeX_Typewriter-Regular.6cc31ea5.woff2",
+    "static/media/materialdesignicons.min.css": "/crossnote-legacy/static/media/materialdesignicons-webfont.e7dec9c5.ttf",
+    "static/media/index.css": "/crossnote-legacy/static/media/roboto-latin-900italic.ebf6d164.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ed0af07.js",
+    "static/css/2.d634ffc6.chunk.css",
+    "static/js/2.96389559.chunk.js",
+    "static/css/main.5b9df75b.chunk.css",
+    "static/js/main.3cb33466.chunk.js"
+  ]
+}
