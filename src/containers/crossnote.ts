@@ -1,25 +1,24 @@
-import { useState, useEffect, useCallback } from "react";
-import { createContainer } from "unstated-next";
-import * as path from "path";
-import Noty from "noty";
 import useInterval from "@use-it/interval";
-import { randomID, OneDay } from "../utilities/utils";
+import Noty from "noty";
+import * as path from "path";
+import { useCallback, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { createContainer } from "unstated-next";
 import Crossnote, {
-  Notebook,
-  Note,
-  Directory,
-  NoteConfig,
-  PushNotebookArgs,
-  PullNotebookArgs,
-  TagNode,
   Attachment,
+  Directory,
+  Note,
+  Notebook,
+  NoteConfig,
+  PullNotebookArgs,
+  PushNotebookArgs,
+  TagNode,
 } from "../lib/crossnote";
-import { getHeaderFromMarkdown } from "../utilities/note";
-import { browserHistory } from "../utilities/history";
-import * as qs from "qs";
 import { pfs } from "../lib/fs";
+import { browserHistory } from "../utilities/history";
 import { sanitizeTag } from "../utilities/markdown";
+import { getHeaderFromMarkdown } from "../utilities/note";
+import { OneDay, randomID } from "../utilities/utils";
 
 export enum EditorMode {
   VickyMD = "VickyMD",
@@ -817,7 +816,7 @@ function useCrossnoteContainer(initialState: InitialState) {
           `# Welcome to Crossnote 😊
 
 If you want to know more about this project,  
-please download and read the [Welcome notebook](https://crossnote.app/?repo=https%3A%2F%2Fgithub.com%2F0xGG%2Fwelcome-notebook.git&branch=master&filePath=README.md).
+please download and read the [Welcome notebook (legacy)](https://crossnote.app/?repo=https%3A%2F%2Fgithub.com%2F0xGG%2Fwelcome-notebook.git&branch=legacy&filePath=README.md).
 
 Please also check the [Explore](https://crossnote.app/explore) section to discover the public notebooks shared by other users ;)
 `,
